@@ -1,0 +1,437 @@
+/* Theme Name: Strictclass.
+Theme Design: Amir Hamza Shuvo Khan.
+Theme Created By: Amir Hamza Shuvo Khan. */
+
+/* Common Css Code Start Here */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style-type: none;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Common Css Code End Here */
+
+/* Header Css Code Start Here */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all linear .3s;
+    background: #f6f9f9;
+}
+
+.header-bg {
+    background: #f6f9f9;
+    animation: menu 2s;
+}
+
+@keyframes menu {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #252525;
+    transition: all linear .3s;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #15a4fa;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0px 0px 0px 30px;
+}
+/* Header Css Code End Here */
+
+/* Banner Css Code Start Here */
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 216px;
+    padding-bottom: 100px;
+}
+
+.banner-item h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #15a4fa;
+    text-transform: uppercase;
+}
+
+.banner-item p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.banner-item a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 20px 35px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.banner-item a:hover {
+    background: #15a4fa;
+}
+
+.banner-down-arrow {
+    margin-top: 175px;
+}
+
+.banner-down-arrow i {
+    font-size: 18px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.banner-down-arrow i:hover {
+    color: #15a4fa;
+}
+
+.typed_wrap h1 {
+	display: inline;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/* Banner Css Code End Here */
+
+/* Simple Css Code Start Here */
+
+#simple {
+    background: #f6f9f9;
+    padding-top: 80px;
+    padding-bottom: 108px;
+}
+
+.simple-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #2d3950;
+    padding-bottom: 25px;
+}
+
+.simple-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    line-height: 32px;
+}
+/* Simple Css Code End Here */
+
+/* Service Css Code Start Here */
+
+#service {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service-image {
+	background: #5fc3ff;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	border-left: 50px solid #48baff;
+	margin-left: 125px;
+}
+
+.ser-img i {
+	font-size: 50px;
+	color: #ffffff;
+	margin-left: -50px;
+	margin-top: 25px;
+}
+
+.service-text {
+    margin-top: 30px;
+}
+
+.service-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #2d3950;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.service-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    line-height: 22px;
+    font-size: 15px;
+}
+/* Service Css Code End Here */
+
+/* Work Css Code Start Here */
+
+#work {
+    background: #f6f9f9;
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.work-title h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #2d3950;
+    font-size: 41px;
+    padding-bottom: 15px;
+}
+
+.work-title p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #909090;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.work-image {
+    position: relative;
+}
+
+.work-image-overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(21, 164, 250,0.9);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.work-image-overly i {
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 13px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.work-image-overly i:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.work-item:hover .work-image-overly {
+    opacity: 1;
+}
+/* Work Css Code End Here */
+
+/* Stay Css Code Start Here */
+
+#stay {
+    background: url(../images/feedback-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.stay-overly {
+    background: rgb(45, 57, 80,0.9);
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.stay-title h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.stay-title p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    padding-bottom: 50px;
+}
+
+.input-box {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    background: none;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.input-textarea {
+	width: 100%;
+	height: 160px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	background: none;
+	padding: 6px;
+	margin-bottom: 20px;
+}
+
+.input-textarea textarea {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.left-side p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.left-side input {
+    margin-right: 15px;
+}
+
+.send-item a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px 50px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    transition: all linear .3s;
+}
+
+.send-item a:hover {
+    background: #15a4fa;
+}
+/* Stay Css Code End Here */
+
+/* Footer Css Code Start Here */
+
+#footer {
+    background: #f6f9f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-end-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.footer-icon i {
+    font-size: 15px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #15a4fa;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 5px;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.footer-icon i:hover {
+    background: #0076c0;
+}
+/* Footer Css Code End Here */

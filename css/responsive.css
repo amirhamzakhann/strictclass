@@ -1,0 +1,327 @@
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .service-image {
+        margin-left: 100px;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Header Css Start */
+    .navbar-nav {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-bottom: 15px;
+    }
+    /* Header Css End */
+    
+    /* Banner Css Start */
+    #banner {
+        padding-top: 131px;
+        padding-bottom: 42px;
+    }
+
+    .banner-item h3 {
+        font-size: 60px;
+    }
+
+    .banner-item p {
+        padding-top: 20px;
+        padding-bottom: 26px;
+    }
+
+    .banner-down-arrow {
+        margin-top: 52px;
+    }
+    /* Banner Css End */
+
+    /* Simple Css Start */
+    #simple {
+        padding-top: 37px;
+        padding-bottom: 44px;
+    }
+
+    .simple-text h3 {
+        font-size: 34px;
+    }
+
+    .simple-text p {
+        font-size: 16px;
+    }
+    /* Simple Css End */
+    
+    /* Service Css Start */
+    #service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service-image {
+        margin-left: 55px;
+    }
+
+    .service-text h3 {
+        font-size: 19px;
+    }
+
+    .service-text p {
+        font-size: 14px;
+    }
+
+    .service-item {
+        padding-bottom: 30px;
+    }
+    /* Service Css End */
+
+    /* Work Css Start */
+    #work {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .work-title h3 {
+        font-size: 43px;
+    }
+
+    .work-title p {
+        padding-bottom: 30px;
+    }
+    /* Work Css End */
+    
+    /* Stay Css Start */
+    .stay-overly {
+        padding-top: 38px;
+        padding-bottom: 59px;
+    }
+
+    .stay-title p {
+        padding-bottom: 32px;
+    }
+
+    .send-item {
+        margin-top: -35px;
+    }
+    /* Stay Css End */
+
+     /* Footer Css Start */
+     .footer-end-text {
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-right: 243px;
+    }
+    /* Footer Css End */
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* Header Css Start */
+     .navbar-nav {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-bottom: 15px;
+    }
+    /* Header Css End */
+    
+    /* Banner Css Start */
+    #banner {
+        padding-top: 131px;
+        padding-bottom: 42px;
+    }
+
+    .banner-item h3 {
+        font-size: 60px;
+    }
+
+    .banner-item p {
+        padding-top: 20px;
+        padding-bottom: 26px;
+    }
+
+    .banner-down-arrow {
+        margin-top: 52px;
+    }
+    /* Banner Css End */
+
+    /* Simple Css Start */
+    #simple {
+        padding-top: 37px;
+        padding-bottom: 44px;
+    }
+
+    .simple-text h3 {
+        font-size: 34px;
+    }
+
+    .simple-text p {
+        font-size: 16px;
+    }
+    /* Simple Css End */
+    
+    /* Service Css Start */
+    #service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service-image {
+        margin-left: 203px;
+    }
+
+    .service-item {
+        padding-bottom: 30px;
+    }
+    /* Service Css End */
+
+    /* Work Css Start */
+    #work {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .work-title h3 {
+        font-size: 36px;
+    }
+
+    .work-title p {
+        padding-bottom: 30px;
+    }
+    /* Work Css End */
+    
+    /* Stay Css Start */
+    .stay-overly {
+        padding-top: 38px;
+        padding-bottom: 59px;
+    }
+
+    .stay-title p {
+        padding-bottom: 32px;
+    }
+
+    .send-item {
+        margin-top: -35px;
+    }
+    /* Stay Css End */
+
+     /* Footer Css Start */
+     .footer-end-text {
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-right: 155px;
+    }
+    /* Footer Css End */
+}
+
+/* Extra small */
+@media (max-width: 575.98px) {
+    
+    /* Header Css Start */
+    .navbar-nav {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-bottom: 15px;
+    }
+    /* Header Css End */
+    
+    /* Banner Css Start */
+    #banner {
+        padding-top: 131px;
+        padding-bottom: 42px;
+    }
+
+    .banner-item h3 {
+        font-size: 60px;
+    }
+
+    .banner-item p {
+        padding-top: 20px;
+        padding-bottom: 26px;
+    }
+
+    .banner-down-arrow {
+        margin-top: 52px;
+    }
+    /* Banner Css End */
+    
+    /* Simple Css Start */
+    #simple {
+        padding-top: 37px;
+        padding-bottom: 44px;
+    }
+
+    .simple-text h3 {
+        font-size: 34px;
+    }
+
+    .simple-text p {
+        font-size: 16px;
+    }
+    /* Simple Css End */
+    
+    /* Service Css Start */
+    #service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service-image {
+        margin-left: 120px;
+    }
+
+    .service-item {
+        padding-bottom: 30px;
+    }
+    /* Service Css End */
+    
+    /* Work Css Start */
+    #work {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .work-title h3 {
+        font-size: 36px;
+    }
+
+    .work-title p {
+        padding-bottom: 30px;
+    }
+    /* Work Css End */
+    
+    /* Stay Css Start */
+    .stay-overly {
+        padding-top: 38px;
+        padding-bottom: 59px;
+    }
+
+    .stay-title p {
+        padding-bottom: 32px;
+    }
+
+    .send-item {
+        margin-top: -35px;
+    }
+    /* Stay Css End */
+    
+    /* Footer Css Start */
+    .footer-end-text {
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-right: 75px;
+    }
+    /* Footer Css End */
+}
